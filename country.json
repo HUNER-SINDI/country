@@ -1,22 +1,65 @@
 [
-  { "id": 1, "eng": "Iraq", "krd": "عێراق", "ar": "عراق" },
-  { "id": 2, "eng": "Turkey", "krd": "تورکیا", "ar": "تركيا" },
-  { "id": 3, "eng": "Iran", "krd": "ئێران", "ar": "إيران" },
-  { "id": 4, "eng": "Syria", "krd": "سووریا", "ar": "سوريا" },
-  { "id": 5, "eng": "Jordan", "krd": "ئوردن", "ar": "الأردن" },
-  { "id": 6, "eng": "Saudi Arabia", "krd": "سعوديا", "ar": "السعودية" },
-  { "id": 7, "eng": "Kuwait", "krd": "کوئت", "ar": "الكويت" },
-  { "id": 8, "eng": "Qatar", "krd": "قەتەر", "ar": "قطر" },
-  { "id": 9, "eng": "Emirates", "krd": "ئیمارات", "ar": "الإمارات" },
-  { "id": 10, "eng": "Oman", "krd": "عومەن", "ar": "عمان" },
-  { "id": 11, "eng": "Yemen", "krd": "یەمەن", "ar": "اليمن" },
-  { "id": 12, "eng": "Lebanon", "krd": "لوبنان", "ar": "لبنان" },
-  { "id": 13, "eng": "Egypt", "krd": "میسر", "ar": "مصر" },
-  { "id": 14, "eng": "Libya", "krd": "لیبیا", "ar": "ليبيا" },
-  { "id": 15, "eng": "Algeria", "krd": "ئەلجەزایر", "ar": "الجزائر" },
-  { "id": 16, "eng": "Morocco", "krd": "مەغریب", "ar": "المغرب" },
-  { "id": 17, "eng": "Tunisia", "krd": "توونسی", "ar": "تونس" },
-  { "id": 18, "eng": "Sudan", "krd": "سوودان", "ar": "السودان" },
-  { "id": 19, "eng": "Somalia", "krd": "سۆمالیا", "ar": "الصومال" },
-  { "id": 20, "eng": "Bahrain", "krd": "بەحرەین", "ar": "البحرين" }
+  {
+    "id": 1,
+    "eng": "Iraq",
+    "krd": "عێراق",
+    "ar": "عراق",
+    "cities": [
+      {
+        "id": 1,
+        "eng": "Baghdad",
+        "krd": "بەغدا",
+        "ar": "بغداد",
+        "subcities": [
+          { "id": 1, "eng": "Karrada", "krd": "کرادە", "ar": "الكرادة" },
+          { "id": 2, "eng": "Sadr City", "krd": "شارێ سەدر", "ar": "مدينة الصدر" },
+          { "id": 3, "eng": "Mustansiriyah", "krd": "موستەنسریە", "ar": "المستنصرية" }
+        ]
+      },
+      {
+        "id": 2,
+        "eng": "Mosul",
+        "krd": "مەوسڵ",
+        "ar": "الموصل",
+        "subcities": [
+          { "id": 1, "eng": "East Mosul", "krd": "مۆسڵی ڕۆژھەڵات", "ar": "الموصل الشرقية" },
+          { "id": 2, "eng": "West Mosul", "krd": "مۆسڵی ڕۆژئاوا", "ar": "الموصل الغربية" },
+          { "id": 3, "eng": "Al-Shifaa", "krd": "الشێفە", "ar": "الشفاء" }
+        ]
+      },
+      {
+        "id": 3,
+        "eng": "Erbil",
+        "krd": "هەولێر",
+        "ar": "أربيل",
+        "subcities": [
+          { "id": 1, "eng": "Downtown", "krd": "ناوەند", "ar": "وسط المدينة" },
+          { "id": 2, "eng": "Ainkawa", "krd": "عینکاوە", "ar": "عينكاوه" },
+          { "id": 3, "eng": "Hewler", "krd": "هەولێر", "ar": "هولير" }
+        ]
+      },
+      {
+        "id": 4,
+        "eng": "Basra",
+        "krd": "بەصرە",
+        "ar": "البصرة",
+        "subcities": [
+          { "id": 1, "eng": "Ashar", "krd": "ئەشار", "ar": "الأشار" },
+          { "id": 2, "eng": "Zubair", "krd": "زوبەیر", "ar": "الزبير" },
+          { "id": 3, "eng": "Al-Madina", "krd": "المدینە", "ar": "المدينة" }
+        ]
+      },
+      {
+        "id": 5,
+        "eng": "Sulaymaniyah",
+        "krd": "سلێمانی",
+        "ar": "السليمانية",
+        "subcities": [
+          { "id": 1, "eng": "Salim Street", "krd": "شەقامی سەلیم", "ar": "شارع سالم" },
+          { "id": 2, "eng": "Bakhtiari", "krd": "بەختیاری", "ar": "بختياري" },
+          { "id": 3, "eng": "Shorsh", "krd": "شۆرش", "ar": "الشورش" }
+        ]
+      }
+    ]
+  }
 ]
